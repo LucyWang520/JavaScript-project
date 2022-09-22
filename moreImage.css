@@ -1,0 +1,23 @@
+/* button use in "moreImage.html"; let user can go back to main page */
+button.goback{
+  background-color: #D5F7FF;
+  font-size: 14px;
+  border-radius: 12px;
+}
+
+
+/* Paragraph style and color */
+p {
+  font-style: normal;
+  font-family: "Blippo", fantasy;
+  color: #BA55D3;
+}
+
+/* title color and style use in "Actually..." in toy.html */
+h1 {
+  font-style: normal;
+  font-family: "Marker Felt", fantasy;
+  font-weight: 500;
+  color: #483D8B;
+}
+

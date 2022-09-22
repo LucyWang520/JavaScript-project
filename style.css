@@ -1,0 +1,443 @@
+/* CSS files add styling rules to your content */
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+/* color and style for website title */
+h1 {
+  font-style: normal;
+  font-family: "Comic Sans MS", cursive;
+  font-size: 40px;
+  color: #000000;
+  text-align: center;
+}
+
+
+/* color and style for paragraph description */
+p {
+  font-style: normal;
+  font-family: "Comic Sans MS", cursive;
+  color: #4682B4;
+  text-align: center;
+  margin: 2rem;
+}
+
+/* list text style and font  */
+nav.pages{
+  text-align: center;
+  font-style: normal;
+  font-family: "Comic Sans MS", cursive;
+}
+
+/* page wrapper for center page */
+.wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
+  border: 20px dashed #8FBC8B;
+  border-style: groove;
+  border-radius: 20px;
+}
+
+/* button style */
+div.buttons {
+    text-align: center;
+}
+
+/* read more button color and style */
+button.readHis {
+  background-color: white; 
+  color: black; 
+  border: 3px dashed #FF6347;
+  border-radius: 12px;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-family: courier;
+  margin-left: 30px;
+}
+
+
+/* read more button hover color and style */
+button.readHis:hover {
+  background-color: #FF7F50;
+  color: white;
+}
+
+/* style for "read more" in Bichon History! */
+#more {
+  display: none;
+}
+
+
+/* read more button color and style */
+button.readDes {
+  background-color: white; 
+  color: black; 
+  border: 3px dashed #9370DB;
+  border-radius: 12px;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-family: courier;
+  margin-left: 30px;
+}
+
+
+/* read more button hover color and style */
+button.readDes:hover {
+  background-color: #DDA0DD;
+  color: white;
+}
+
+
+/* style for "read des" in Bichon History! */
+#desMore {
+  display: none;
+}
+
+
+/* history button color and style */
+button.history {
+  background-color: white; 
+  color: black; 
+  border: 3px solid #CD5C5C;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-family: Comic Sans MS;
+}
+
+/* history button hover color and style */
+button.history:hover {
+  background-color: #DB8B8B;
+  color: white;
+}
+
+/* detail button color and style */
+button.detail {
+  background-color: white; 
+  color: black; 
+  border: 3px solid #808000;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-family: Comic Sans MS;
+}
+
+/* detail button hover color and style */
+button.detail:hover {
+  background-color: #8FBC8B;
+  color: white;
+}
+
+/* description button color and style */
+button.description {
+  background-color: white; 
+  color: black; 
+  border: 3px solid #483D8B;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-family: Comic Sans MS;
+}
+
+/* history button color and style */
+button.description:hover {
+  background-color: #9370DB;
+  color: white;
+}
+
+/* picture button color and style */
+button.picture {
+  background-color: white; 
+  color: black; 
+  border: 3px solid #A0522D;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-family: Comic Sans MS;
+}
+
+/* picture button hover color and style */
+button.picture:hover {
+  background-color: #CD853F;
+  color: white;
+}
+
+/* extra info button color and style */
+button.extra {
+  background-color: white; 
+  color: black; 
+  border: 3px solid #696969;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-family: Comic Sans MS;
+}
+
+/* extra picture button hover color and style */
+button.extra:hover {
+  background-color: #A9A9A9;
+  color: white;
+}
+
+/* credit button color and style */
+button.credit {
+  background-color: white; 
+  color: black; 
+  border: 3px solid #556B2F;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-family: Comic Sans MS;
+}
+
+/* credit button hover color and style */
+button.credit:hover {
+  background-color: #9ACD32;
+  color: white;
+}
+
+
+/* website design description title style and color */
+h2.read {
+  font-style: normal;
+  font-family: Chalkduster;
+  font-variant: small-caps;
+  font-size: 30px;
+  color: #2F4F4F;
+  text-align: center;
+}
+
+
+/* color and style for read paragraph */
+p.read {
+  font-style: normal;
+  font-family: "Gill Sans", sans-serif;
+  color: #191970;
+  text-align: left;
+  margin: 2rem;
+}
+
+
+
+/* history title style and color */
+h2.history {
+  font-style: normal;
+  font-family: Chalkduster;
+  font-variant: small-caps;
+  font-size: 30px;
+  color: #CD5C5C;
+  text-align: center;
+}
+
+
+/* color and style for history paragraph */
+p.history {
+  font-style: normal;
+  font-family: "Gill Sans", sans-serif;
+  color: #FF4500;
+  text-align: left;
+  margin: 2rem;
+}
+
+
+
+/* description title style and color */
+h2.description {
+  font-style: normal;
+  font-family: Chalkduster;
+  font-variant: small-caps;
+  font-size: 30px;
+  color: #483D8B;
+  text-align: center;
+}
+
+
+/* color and style for read paragraph */
+p.description {
+  font-style: normal;
+  font-family: "Gill Sans", sans-serif;
+  color: #9370DB;
+  text-align: justify;
+  margin: 2rem;
+}
+
+
+/* detail title style and color */
+h2.detail {
+  font-style: normal;
+  font-family: Chalkduster;
+  font-variant: small-caps;
+  font-size: 30px;
+  color: #808000;
+  text-align: center;
+}
+
+
+/* color and style for read paragraph */
+p.detail {
+  font-style: normal;
+  font-family: "Gill Sans", sans-serif;
+  color: #2E8B57;
+  text-align: left;
+  margin: 2rem;
+}
+
+/* paragraph of "Bichon Frise Detail!" color and style */
+p.detail1{
+  font-style: normal;
+  font-family: "Gill Sans", sans-serif;
+  text-align: center;
+}
+
+
+
+/* picture title style and color */
+h2.picture {
+  font-style: normal;
+  font-family: Chalkduster;
+  font-variant: small-caps;
+  font-size: 30px;
+  color: #A0522D;
+  text-align: center;
+}
+
+
+/* more info title style and color */
+h2.extra {
+  font-style: normal;
+  font-family: Chalkduster;
+  font-variant: small-caps;
+  font-size: 30px;
+  color: #C71585;
+  text-align: center;
+}
+
+/* color and style for credit paragraph */
+p.extra {
+  font-style: normal;
+  font-family: "Gill Sans", sans-serif;
+  color: #663399;
+  margin: 2rem;
+}
+
+
+/* color and style for list */
+li.list {
+  font-style: normal;
+  font-family: "Gill Sans", sans-serif;
+  color: #663399;
+}
+
+
+/* color and style for question paragraph */
+p.ques {
+  font-style: normal;
+  font-family: "Gill Sans", sans-serif;
+  color: #8B4513;
+  margin: 2rem;
+}
+
+/* color and style for question list */
+li.list1 {
+  font-style: normal;
+  font-family: "Gill Sans", sans-serif;
+  color: #8B4513;
+}
+
+/* color and style for question list description */
+dd {
+  font-style: normal;
+  font-family: "Gill Sans", sans-serif;
+  color: #1E90FF;
+}
+
+
+/* credit title style and color */
+h2.credit {
+  font-style: normal;
+  font-family: Chalkduster;
+  font-variant: small-caps;
+  font-size: 30px;
+  color: #696969;
+  text-align: center;
+}
+
+/* color and style for credit paragraph */
+p.cred {
+  font-style: normal;
+  font-family: American Typewriter;
+  color: #778899;
+  margin: 2rem;
+}
+
+/* color and style for picture paragraph */
+p.bikitoy {
+  font-style: normal;
+  font-family: helvetica, arial, sans-serif;
+  font-variant: small-caps;
+  font-size: 20px;
+  color: #D2691E;
+  text-align: center;
+}
+
+h2.picTitle {
+  font-style: normal;
+  font-family: "Gill Sans", sans-serif;
+  font-variant: small-caps;
+  font-size: 25px;
+  color: #2F4F4F;
+  text-align: center;
+}
+
+/* using in first and second picture of the webpage; use with link to enlarge the picture */
+img.toymap{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 340px;
+  height:600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* using in the gif photo to change the size */
+img.toygif{
+  width: 340px;
+  height:300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* style of picture table */
+table.picture {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 500px;
+  border:2px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* style and box-sizing of columns */
+* {
+  box-sizing: border-box;
+}
+
+/* center videos */
+.center { 
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}

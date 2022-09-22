@@ -1,0 +1,40 @@
+/* use in "Hello! Welcome to "About this page!" title */
+h1 {
+  font-style: normal;
+  font-family: "Noto Sans", sans-serif;
+  color: black;
+}
+
+/* color and style for paragraph */
+p {
+  font-style: normal;
+  font-family: "Gill Sans", sans-serif;
+  color: #191970;
+}
+
+
+/* use in "Here are some other websites I made! Check it out!" title */
+h3 {
+  font-style: normal;
+  font-family: "American Typewriter", serif;
+  font-weight: 500;
+  color: #4682B4;
+}
+
+/* when link clicked, it change color */
+a:visited {
+  color: #d10898;
+}
+/* move mouse over link, change color */
+a:hover {
+  COLOR: #71B4E9; 
+  TEXT-DECORATION: none; 
+  font-weight: none
+}
+
+/* go back link button style and color */
+button.goback{
+  background-color: #B0C4DE;
+  font-size: 14px;
+  border-radius: 12px;
+}
