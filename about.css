@@ -1,0 +1,77 @@
+/* CSS files add styling rules to your content */
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+/* color and style for paragraph */
+p {
+  font-style: normal;
+  font-family: "Gill Sans", sans-serif;
+  color: #616A6B;
+}
+
+/* color and style for website title */
+h1 {
+  font-style: normal;
+  font-family: "Comic Sans MS", cursive;
+  font-size: 40px;
+  color: #000000;
+}
+
+/* color and style for "overview and purpose" title */
+h2.first {
+  font-style: normal;
+  font-family: "OCR A Std", monospace;
+  font-size: 35px;
+  color: #CD5C5C;
+}
+
+/* color and style for "CSS and look" title */
+h2.second {
+  font-style: normal;
+  font-family: "OCR A Std", monospace;
+  font-size: 35px;
+  color: #FFA500;
+}
+
+
+/* color and style for "keywords and description" title */
+h2.third {
+  font-style: normal;
+  font-family: "OCR A Std", monospace;
+  font-size: 35px;
+  color: #9370DB;
+}
+
+/* color and style for "audience" title */
+h2.fourth {
+  font-style: normal;
+  font-family: "OCR A Std", monospace;
+  font-size: 35px;
+  color: #008000;
+}
+
+/* goBack button color and style */
+button.goBack {
+  background-color: white; 
+  color: black; 
+  border: 3px solid #000000;
+  border-radius: 12px;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-family: courier;
+}
+
+/* goBack button hover color and style */
+button.goBack:hover {
+  background-color: #A9A9A9;
+  color: white;
+}
+
+/* list text style and font  */
+nav.pages{
+  font-style: normal;
+  font-family: "Comic Sans MS", cursive;
+}
+

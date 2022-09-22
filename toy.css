@@ -1,0 +1,19 @@
+/* title color and style use in "Actually..." in toy.html */
+h1{
+  font-style: normal;
+  color:#567C22;
+}
+
+/* button use in "toy.html"; let user can go back to main page */
+button.goback1{
+  background-color: #DCFAEB;
+  font-size: 14px;
+  border-radius: 12px;
+}
+
+
+p {
+  font-style: normal;
+  font-family: "Comic Sans MS", cursive;
+  color: #4682B4;
+}
